@@ -13,6 +13,7 @@ public class DialogueAnimationController : MonoBehaviour
 
     public List<AnimationData> animations = new List<AnimationData>();
 
+
     private Animator animator;
     private Dictionary<string, AnimationClip> animationClips = new Dictionary<string, AnimationClip>();
 
